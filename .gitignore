@@ -17,6 +17,7 @@ _mailinglist
 docs/_build/
 __pycache__
 .env_file
+.aws_user
 
 # Coverage reports
 htmlcov/
@@ -27,3 +28,9 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
+
+# Specific Files
+trust.json
+policy.json
+aws-auth-patch.yml
+util.txt
